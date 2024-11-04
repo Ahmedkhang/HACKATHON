@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Generate a Resume</title>
+</head>
+<body>
+    <h1>Generate a Resume</h1>
+    <form id="form">
+        <fieldset>
+
+             <legend>Personal Information</legend>
+             <label for="Name">Name:</label>
+             <input type="text" id="name" placeholder="Enter Your Name">
+
+             
+             <label for="email">Name:</label>
+             <input type="email" id="email" placeholder="Enter Your Email">
+
+             
+             <label for="phone">Phone:</label>
+             <input type="tel" id="phone" placeholder="Enter Your Phone Number">
+
+             
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education:</label>
+            <textarea id="education" placeholder="Enter Your Education Details" rows="4" required></textarea>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Experirence</legend>
+            <label for="experience">Experience:</label>
+            <textarea id="experience" placeholder="Enter Your Work Experirence" rows="4" required></textarea>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" placeholder="Enter Your Skills Details" rows="4" required></textarea>
+        </fieldset>
+
+        <button id="btn" type="submit">Generate Your Resume</button>
+    </form>
+
+    <div id="resume-display">
+
+    </div>
+    
+ <script src="script.js"></script>
+    
+</body>
+</html>
