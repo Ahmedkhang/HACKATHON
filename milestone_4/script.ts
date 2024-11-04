@@ -16,7 +16,7 @@ form.addEventListener('submit', (event: Event) => {
        const resume_HTML = `
        
        <h2><b>Resume</b></h2>
-       <h3>Personal Infromation</h3>
+       <h3>Personal Information</h3>
 
        <p><b>Name:</b><span contenteditable="true">${name}</span></p>
       <p><b>Email:</b><span contenteditable="true">${email}</span></p>
